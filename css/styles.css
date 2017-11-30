@@ -1,15 +1,65 @@
-.navbar {
-  background: salmon;
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;
+}
+
+nav {
+  background: none;
+}
+
+@font-face {
+  font-family: symtext;
+  src: url(symtext.ttf);
+}
+
+@font-face {
+  font-family: pixelade;
+  src: url(pixelade.ttf);
 }
 
 .header {
-  background: tan;
+  font-family: symtext;
+  text-align: center;
+  color: white;
 }
-
-.row {
-  background: yellow;
+.header h1 {
+  font-size: 3rem;
 }
 
 .gallery-item {
-  background: lightgreen;
+  background: rgba(0,0,0,0.4);
+}
+
+#dont-move {
+  font-size: 1.8rem;
+  text-align: left;
+  width: 67%;
+}
+
+.slider {
+  font-family: pixelade;
+}
+
+.slides li, .card {
+  border: 12px solid transparent;
+  border-image: url(../img/border.png) 15 stretch;
+  border-radius: 12px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.caption {
+  background: rgba(0,0,0,0.6);
+  padding: 0 5px;
+}
+
+.card-title {
+  font-style: italic;
+}
+.card .card-reveal {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+h4 {
+  text-decoration: underline;
 }
