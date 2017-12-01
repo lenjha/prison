@@ -52,11 +52,27 @@ nav, .slider, .card {
   padding: 0 5px;
 }
 
+.description {
+  font-family: pixelade;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 5px black;
+  text-align: justify;
+}
+
 .card-title {
   font-style: italic;
 }
 .card .card-reveal {
   background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+#mobile-demo {
+  background: rgba(0,0,0,0.9);
+}
+
+#mobile-demo a {
   color: white;
 }
 
